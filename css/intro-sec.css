@@ -1,0 +1,47 @@
+
+/* ----- intro-sec---- */
+#intro-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+#intro-sec-left {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#intro-sec-left .title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#intro-sec-left .content{
+    font-size: 2rem;
+    align-content: center;
+    
+}
+
+#intro-sec-right {
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-end;
+}
+
+/* Style buttons */
+.icon-btn {
+    background-color: DodgerBlue; /* Blue background */
+    width: 100%;
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 2rem; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.icon-btn:hover {
+    background-color: RoyalBlue;
+}
